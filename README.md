@@ -10,18 +10,18 @@ In meinem Beispielcode habe ich jedoch die externen Programme nicht in der Shell
 
 
 
-OSM Datenquelle:
+### OSM Datenquelle:
 
 https://download.geofabrik.de/europe/germany.html
 
 
 
-Programme:
+### Programme:
 
 * osmfilter -> [wiki.openstreetmap.org/wiki/Osmfilter](http://wiki.openstreetmap.org/wiki/Osmfilter)
 * osmconvert -> [wiki.openstreetmap.org/wiki/Osmconvert](http://wiki.openstreetmap.org/wiki/Osmconvert)
 
-python libraries:
+### python libraries:
 
 * insb. geopandas (darin erhalten auch die nötige gdal)
 * http://svn.osgeo.org/gdal/trunk/gdal/swig/python/samples/ogr2ogr.py
