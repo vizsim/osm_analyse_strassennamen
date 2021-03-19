@@ -1,7 +1,7 @@
 # osm_analyse_strassennamen
 
 Kurze Erklärung und Beispiel für die Extrahierung und Nutzung von größeren OSM-Datensätzen.
-(Für keine Bereiche oder seltene Tags würde ich auch weiterhin Overpass empfehlen.)
+(Für kleine Bereiche oder seltene Tags würde ich auch weiterhin Overpass empfehlen.)
 
 Der hier beschriebene Ansatz basiert auf dem Tutorial von Hans Hack
 https://journocode.com/2018/01/extract-geodata-openstreetmap-osmfilter/
