@@ -1,6 +1,6 @@
 # osm_analyse_strassennamen
 
-Kurze Erklärung und Beispiel für die Extrahierung und Nutzung von größeren OSM-Datensätzen.
+Kurze Erklärung und Beispiel für die Extrahierung und Nutzung von größeren OSM-Datensätzen mit Windows.
 (Für kleine Bereiche oder seltene Tags würde ich auch weiterhin Overpass empfehlen.)
 
 Der hier beschriebene Ansatz basiert auf dem Tutorial von Hans Hack
@@ -29,6 +29,13 @@ https://download.geofabrik.de/europe/germany.html
 
 
 
+##  Vorgehen:
+
+Zunächst bei geofabrik für das gewünschte Gebiet die **osm.pbf-Datei** (am besten klein anfangen, bspw. Saarland), sowie die beiden Programme **osmconvert** und **osmfilter** und das python-skript **ogr2ogr**.py (siehe oben) herunterladen. Alles zusammen mit dem hier hinterlegten **juypter-notepad** (.ipynb) in einen Ordner legen. Stelle sicher, dass in dem python-Environment die nötigen libaries (geopandas, ggf. matplotlib) installiert sind.
+Nun können der Reihe nach die Zellen im notepad ausgeführt werden und entsprechend die Pfade angepasst werden.
+
+
+
 ##  Beispiele :
 
 
@@ -38,3 +45,6 @@ https://download.geofabrik.de/europe/germany.html
 
 
 ![](streetnames_plots/plt_Eisenbahn.png)
+
+
+
